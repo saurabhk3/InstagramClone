@@ -66,8 +66,8 @@
 41        android:debuggable="true"
 42        android:icon="@mipmap/ic_launcher"
 42-->/home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:21:9-43
-43        android:label="@string/app_name"
-43-->/home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:22:9-41
+43        android:label="InstagramClone"
+43-->/home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:22:9-39
 44        android:testOnly="true"
 45        android:theme="@style/AppTheme" >
 45-->/home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:23:9-40

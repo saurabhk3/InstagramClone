@@ -836,6 +836,7 @@ id art
 id audio_empty_message
 id audio_list_view
 id auto
+id background
 id background_image_view
 id background_place_holder_image_view
 id beginning
@@ -912,7 +913,6 @@ id icon_uri
 id icon_view
 id ifRoom
 id image
-id imageView
 id index_entity_types
 id info
 id instant_message
@@ -928,6 +928,7 @@ id line3
 id listMode
 id list_item
 id loading_indicator
+id logo
 id logo_only
 id main_container
 id match_global_nicknames

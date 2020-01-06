@@ -227,7 +227,7 @@ MERGED from [com.google.android.gms:play-services-basement:9.4.0] /home/saurabh/
 MERGED from [com.android.support:support-v4:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/50496d2729669105a70fa6264e3d788f/support-v4-23.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/50496d2729669105a70fa6264e3d788f/support-v4-23.4.0/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:22:9-41
+		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:22:9-39
 	android:icon
 		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:21:9-43
 	android:allowBackup

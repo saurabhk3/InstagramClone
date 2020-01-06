@@ -7,12 +7,17 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 package com.parse.starter;
+import android.drm.DrmStore;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -28,11 +33,22 @@ import com.parse.SignUpCallback;
 import java.util.List;
 
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+public class MainActivity extends AppCompatActivity implements View.OnClickListener,View.OnKeyListener{
   EditText username,password;
   TextView switchText;
   Button button;
   Boolean signUpMode = true;
+  ImageView logo;
+  RelativeLayout layout;
+
+  @Override
+  public boolean onKey(View view, int i, KeyEvent keyEvent) {
+    if(i==KeyEvent.KEYCODE_ENTER && keyEvent.getAction()== KeyEvent.ACTION_DOWN){
+      signup(view);
+    }
+    return false;
+  }
+
   @Override
   public void onClick(View view) {
     if(view.getId()== R.id.switchText){
@@ -46,9 +62,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switchText.setText("Or, Login");
 
       }
+    }else if(view.getId()==R.id.logo || view.getId()==R.id.background){
+      InputMethodManager imm = (InputMethodManager)getSystemService(INPUT_METHOD_SERVICE);
+      imm.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(),0);
     }
   }
-
 
   public void signup(View view){
     if(username.getText().toString().equals("") || password.getText().toString().equals("")){
@@ -93,8 +111,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     username = (EditText) findViewById(R.id.username);
     password = (EditText) findViewById(R.id.password);
 
+    logo = (ImageView) findViewById(R.id.logo);
+    layout = (RelativeLayout) findViewById(R.id.background);
     switchText.setOnClickListener(this);
-
+    password.setOnKeyListener(this);
+    logo.setOnClickListener(this);
+    layout.setOnClickListener(this);
   }
 
 
