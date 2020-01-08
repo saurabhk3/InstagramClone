@@ -1,17 +1,18 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
-INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
-INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
-INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
+ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-28:12
 MERGED from [com.google.android.gms:play-services:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/028eebf07a20418282020e81bb957d39/play-services-9.4.0/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/048664af1b36dc390d580b5c1d9577e2/play-services-cast-framework-9.4.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-cast:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/5a59d64a2a262205c8369c5b3d2d3a25/play-services-cast-9.4.0/AndroidManifest.xml:16:1-20:12
 MERGED from [com.android.support:mediarouter-v7:23.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/0f9388ca024aebe8b96b21d5297b00db/mediarouter-v7-23.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/5403e63b33e1a0f6362489e9c0f0ccfe/appcompat-v7-23.4.0/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:multidex:1.0.2] /home/saurabh/.gradle/caches/transforms-2/files-2.1/4032553b68e9a00aa7d37277eb28cbe1/multidex-1.0.2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/c563487d31c5ff508433a1c682fa9f26/animated-vector-drawable-23.4.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/c929d0de43bf20f39d5b028cdf663bdf/support-vector-drawable-23.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:appcompat-v7:24.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/9a6531c0dfcfb5db10c7a2464724ee2d/appcompat-v7-24.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:multidex:1.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/6eb4732974348e39fe2542718e694567/multidex-1.0.0/AndroidManifest.xml:16:1-19:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/saurabh/.gradle/caches/transforms-2/files-2.1/e06356baee89e167a357bb564ccf3774/constraint-layout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/5d3381f81d4d1c85d3497e479b2c8249/animated-vector-drawable-24.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/184163916fb5e1d3943921e6132f5db6/support-vector-drawable-24.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-ads:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/c96f9456650fced5dde4065292756509/play-services-ads-9.4.0/AndroidManifest.xml:16:1-20:12
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/423601fd6c4c7a826eaeaaeae2104ea9/play-services-ads-lite-9.4.0/AndroidManifest.xml:16:1-33:12
 MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/b0b0c052508fb5d7b7ed12c69c0e549d/play-services-analytics-9.4.0/AndroidManifest.xml:16:1-28:12
@@ -58,26 +59,26 @@ MERGED from [com.google.firebase:firebase-common:9.4.0] /home/saurabh/.gradle/ca
 MERGED from [com.google.android.gms:play-services-gass:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/48554105599364d3a4c9d94e31d4eb40/play-services-gass-9.4.0/AndroidManifest.xml:16:1-20:12
 MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/c963ff701fa61e807fad4f62eccf0608/play-services-tasks-9.4.0/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-basement:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/9e1ae4db74f18321e0ed199965d75c1a/play-services-basement-9.4.0/AndroidManifest.xml:16:1-26:12
-MERGED from [com.android.support:support-v4:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/50496d2729669105a70fa6264e3d788f/support-v4-23.4.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
-INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
-INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
+MERGED from [com.android.support:support-v4:24.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/d6be2f5ea7bdedfc8266cac5f6d4a148/support-v4-24.0.0/AndroidManifest.xml:17:1-27:12
+INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-28:12
 	package
-		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:10:5-32
+		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:3:5-32
 		INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
 		INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
-		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
+		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-28:12
 		INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
-		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
+		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-28:12
 		INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:11-69
+		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:12:5-67
+ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:5:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/423601fd6c4c7a826eaeaaeae2104ea9/play-services-ads-lite-9.4.0/AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/423601fd6c4c7a826eaeaaeae2104ea9/play-services-ads-lite-9.4.0/AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/b0b0c052508fb5d7b7ed12c69c0e549d/play-services-analytics-9.4.0/AndroidManifest.xml:21:5-67
@@ -103,9 +104,9 @@ MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /home/saurabh/.g
 MERGED from [com.google.firebase:firebase-iid:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/8143eb64b317fa7852be0a4a99978803/firebase-iid-9.4.0/AndroidManifest.xml:21:5-67
 MERGED from [com.google.firebase:firebase-iid:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/8143eb64b317fa7852be0a4a99978803/firebase-iid-9.4.0/AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:12:22-64
+		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:13:5-79
+ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:6:5-79
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/423601fd6c4c7a826eaeaaeae2104ea9/play-services-ads-lite-9.4.0/AndroidManifest.xml:21:5-78
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/423601fd6c4c7a826eaeaaeae2104ea9/play-services-ads-lite-9.4.0/AndroidManifest.xml:21:5-78
 MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/b0b0c052508fb5d7b7ed12c69c0e549d/play-services-analytics-9.4.0/AndroidManifest.xml:22:5-79
@@ -125,17 +126,17 @@ MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /home/saurabh/.g
 MERGED from [com.google.firebase:firebase-iid:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/8143eb64b317fa7852be0a4a99978803/firebase-iid-9.4.0/AndroidManifest.xml:20:5-79
 MERGED from [com.google.firebase:firebase-iid:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/8143eb64b317fa7852be0a4a99978803/firebase-iid-9.4.0/AndroidManifest.xml:20:5-79
 	android:name
-		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:13:22-76
+		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:6:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:14:5-80
+ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:7:5-80
 	android:name
-		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:14:22-77
+		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:7:22-77
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:16:5-79
+ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:8:5-79
 	android:name
-		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:16:22-76
+		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:8:22-76
 application
-ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:18:5-36:19
+ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:10:5-26:19
 MERGED from [com.google.android.gms:play-services:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/028eebf07a20418282020e81bb957d39/play-services-9.4.0/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/028eebf07a20418282020e81bb957d39/play-services-9.4.0/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/048664af1b36dc390d580b5c1d9577e2/play-services-cast-framework-9.4.0/AndroidManifest.xml:5:5-9:19
@@ -144,12 +145,14 @@ MERGED from [com.google.android.gms:play-services-cast:9.4.0] /home/saurabh/.gra
 MERGED from [com.google.android.gms:play-services-cast:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/5a59d64a2a262205c8369c5b3d2d3a25/play-services-cast-9.4.0/AndroidManifest.xml:19:5-20
 MERGED from [com.android.support:mediarouter-v7:23.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/0f9388ca024aebe8b96b21d5297b00db/mediarouter-v7-23.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:mediarouter-v7:23.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/0f9388ca024aebe8b96b21d5297b00db/mediarouter-v7-23.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/5403e63b33e1a0f6362489e9c0f0ccfe/appcompat-v7-23.4.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/5403e63b33e1a0f6362489e9c0f0ccfe/appcompat-v7-23.4.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/c563487d31c5ff508433a1c682fa9f26/animated-vector-drawable-23.4.0/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/c563487d31c5ff508433a1c682fa9f26/animated-vector-drawable-23.4.0/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/c929d0de43bf20f39d5b028cdf663bdf/support-vector-drawable-23.4.0/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/c929d0de43bf20f39d5b028cdf663bdf/support-vector-drawable-23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:appcompat-v7:24.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/9a6531c0dfcfb5db10c7a2464724ee2d/appcompat-v7-24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/9a6531c0dfcfb5db10c7a2464724ee2d/appcompat-v7-24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/saurabh/.gradle/caches/transforms-2/files-2.1/e06356baee89e167a357bb564ccf3774/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/saurabh/.gradle/caches/transforms-2/files-2.1/e06356baee89e167a357bb564ccf3774/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/5d3381f81d4d1c85d3497e479b2c8249/animated-vector-drawable-24.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/5d3381f81d4d1c85d3497e479b2c8249/animated-vector-drawable-24.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/184163916fb5e1d3943921e6132f5db6/support-vector-drawable-24.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/184163916fb5e1d3943921e6132f5db6/support-vector-drawable-24.0.0/AndroidManifest.xml:23:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/423601fd6c4c7a826eaeaaeae2104ea9/play-services-ads-lite-9.4.0/AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/423601fd6c4c7a826eaeaaeae2104ea9/play-services-ads-lite-9.4.0/AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/b0b0c052508fb5d7b7ed12c69c0e549d/play-services-analytics-9.4.0/AndroidManifest.xml:27:5-20
@@ -224,34 +227,38 @@ MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /home/saurabh/.gr
 MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/c963ff701fa61e807fad4f62eccf0608/play-services-tasks-9.4.0/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/9e1ae4db74f18321e0ed199965d75c1a/play-services-basement-9.4.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/9e1ae4db74f18321e0ed199965d75c1a/play-services-basement-9.4.0/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/50496d2729669105a70fa6264e3d788f/support-v4-23.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/50496d2729669105a70fa6264e3d788f/support-v4-23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/d6be2f5ea7bdedfc8266cac5f6d4a148/support-v4-24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/d6be2f5ea7bdedfc8266cac5f6d4a148/support-v4-24.0.0/AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:22:9-39
+		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:14:9-39
 	android:icon
-		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:21:9-43
+		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:20:9-35
+		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:23:9-40
+		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:15:9-40
 	android:name
-		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:19:9-43
+		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:11:9-43
+activity#com.parse.starter.UserActivity
+ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:16:9-59
+	android:name
+		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:16:19-47
 activity#com.parse.starter.MainActivity
-ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:25:9-33:20
+ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:17:9-25:20
 	android:label
-		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:27:13-45
+		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:19:13-45
 	android:name
-		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:26:13-41
+		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:18:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:28:13-32:29
+ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:29:17-69
+ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:29:25-66
+		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:31:17-77
+ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:31:27-74
+		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:23:27-74
 uses-sdk
 INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
@@ -264,14 +271,16 @@ MERGED from [com.google.android.gms:play-services-cast:9.4.0] /home/saurabh/.gra
 MERGED from [com.google.android.gms:play-services-cast:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/5a59d64a2a262205c8369c5b3d2d3a25/play-services-cast-9.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:mediarouter-v7:23.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/0f9388ca024aebe8b96b21d5297b00db/mediarouter-v7-23.0.0/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:mediarouter-v7:23.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/0f9388ca024aebe8b96b21d5297b00db/mediarouter-v7-23.0.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/5403e63b33e1a0f6362489e9c0f0ccfe/appcompat-v7-23.4.0/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/5403e63b33e1a0f6362489e9c0f0ccfe/appcompat-v7-23.4.0/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:multidex:1.0.2] /home/saurabh/.gradle/caches/transforms-2/files-2.1/4032553b68e9a00aa7d37277eb28cbe1/multidex-1.0.2/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:multidex:1.0.2] /home/saurabh/.gradle/caches/transforms-2/files-2.1/4032553b68e9a00aa7d37277eb28cbe1/multidex-1.0.2/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/c563487d31c5ff508433a1c682fa9f26/animated-vector-drawable-23.4.0/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/c563487d31c5ff508433a1c682fa9f26/animated-vector-drawable-23.4.0/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/c929d0de43bf20f39d5b028cdf663bdf/support-vector-drawable-23.4.0/AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/c929d0de43bf20f39d5b028cdf663bdf/support-vector-drawable-23.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:appcompat-v7:24.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/9a6531c0dfcfb5db10c7a2464724ee2d/appcompat-v7-24.0.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:24.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/9a6531c0dfcfb5db10c7a2464724ee2d/appcompat-v7-24.0.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:multidex:1.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/6eb4732974348e39fe2542718e694567/multidex-1.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:multidex:1.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/6eb4732974348e39fe2542718e694567/multidex-1.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/saurabh/.gradle/caches/transforms-2/files-2.1/e06356baee89e167a357bb564ccf3774/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/saurabh/.gradle/caches/transforms-2/files-2.1/e06356baee89e167a357bb564ccf3774/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/5d3381f81d4d1c85d3497e479b2c8249/animated-vector-drawable-24.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/5d3381f81d4d1c85d3497e479b2c8249/animated-vector-drawable-24.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/184163916fb5e1d3943921e6132f5db6/support-vector-drawable-24.0.0/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/184163916fb5e1d3943921e6132f5db6/support-vector-drawable-24.0.0/AndroidManifest.xml:21:5-43
 MERGED from [com.google.android.gms:play-services-ads:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/c96f9456650fced5dde4065292756509/play-services-ads-9.4.0/AndroidManifest.xml:19:5-42
 MERGED from [com.google.android.gms:play-services-ads:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/c96f9456650fced5dde4065292756509/play-services-ads-9.4.0/AndroidManifest.xml:19:5-42
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/423601fd6c4c7a826eaeaaeae2104ea9/play-services-ads-lite-9.4.0/AndroidManifest.xml:23:5-42
@@ -364,12 +373,12 @@ MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /home/saurabh/.gr
 MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/c963ff701fa61e807fad4f62eccf0608/play-services-tasks-9.4.0/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-basement:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/9e1ae4db74f18321e0ed199965d75c1a/play-services-basement-9.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-basement:9.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/9e1ae4db74f18321e0ed199965d75c1a/play-services-basement-9.4.0/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/50496d2729669105a70fa6264e3d788f/support-v4-23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/50496d2729669105a70fa6264e3d788f/support-v4-23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/d6be2f5ea7bdedfc8266cac5f6d4a148/support-v4-24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/d6be2f5ea7bdedfc8266cac5f6d4a148/support-v4-24.0.0/AndroidManifest.xml:21:5-23:54
 INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
 INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.4.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/5403e63b33e1a0f6362489e9c0f0ccfe/appcompat-v7-23.4.0/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:24.0.0] /home/saurabh/.gradle/caches/transforms-2/files-2.1/9a6531c0dfcfb5db10c7a2464724ee2d/appcompat-v7-24.0.0/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
 		ADDED from /home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml

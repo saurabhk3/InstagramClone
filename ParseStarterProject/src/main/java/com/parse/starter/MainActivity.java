@@ -7,6 +7,7 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 package com.parse.starter;
+import android.content.Intent;
 import android.drm.DrmStore;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -67,6 +68,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
       imm.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(),0);
     }
   }
+  public void showUser(){
+    Intent intent = new Intent(getApplicationContext(),UserActivity.class);
+    startActivity(intent);
+  }
 
   public void signup(View view){
     if(username.getText().toString().equals("") || password.getText().toString().equals("")){
@@ -80,8 +85,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         user.signUpInBackground(new SignUpCallback() {
           @Override
           public void done(ParseException e) {
-            if (e == null)
+            if (e == null) {
               Log.i("Logged Status:", "Successful");
+              showUser();
+            }
             else
               Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();
           }
@@ -93,6 +100,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
           public void done(ParseUser parseUser, ParseException e) {
             if(parseUser != null){
               Log.i("Logged ","Okayyy");
+              showUser();
             }else{
               Toast.makeText(MainActivity.this,e.getMessage(),Toast.LENGTH_SHORT).show();
             }
@@ -117,6 +125,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     password.setOnKeyListener(this);
     logo.setOnClickListener(this);
     layout.setOnClickListener(this);
+
+    if(ParseUser.getCurrentUser()!=null){  // is user is logged in already, show the list
+      showUser();
+    }
   }
 
 

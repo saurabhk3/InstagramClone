@@ -4,7 +4,7 @@
             "outputFile": "/home/saurabh/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mn-rMN/values-mn-rMN.xml",
             "map": [
                 {
-                    "source": "/home/saurabh/.gradle/caches/transforms-2/files-2.1/5403e63b33e1a0f6362489e9c0f0ccfe/appcompat-v7-23.4.0/res/values-mn-rMN/values-mn-rMN.xml",
+                    "source": "/home/saurabh/.gradle/caches/transforms-2/files-2.1/9a6531c0dfcfb5db10c7a2464724ee2d/appcompat-v7-24.0.0/res/values-mn-rMN/values-mn-rMN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
