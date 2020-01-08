@@ -114,6 +114,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
+
+    setTitle("Instagram");
     switchText = (TextView) findViewById(R.id.switchText);
     button = (Button) findViewById(R.id.button);
     username = (EditText) findViewById(R.id.username);
@@ -126,10 +128,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     logo.setOnClickListener(this);
     layout.setOnClickListener(this);
 
-    if(ParseUser.getCurrentUser()!=null){  // is user is logged in already, show the list
-      Log.i("USer Current",ParseUser.getCurrentUser().getUsername());
-      showUser();
-    }
   }
 
 

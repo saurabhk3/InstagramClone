@@ -40,6 +40,7 @@ public class UserActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user);
 
+        setTitle("Instagram");
         listView = (ListView) findViewById(R.id.listView);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -121,6 +122,11 @@ public class UserActivity extends AppCompatActivity {
             }else{
                 getPhoto();
             }
+        }else if(item.getItemId()==R.id.logout){
+            ParseUser.logOut();
+
+            Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);

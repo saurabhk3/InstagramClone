@@ -40,7 +40,7 @@
         <activity android:name="com.parse.starter.UserActivity" />
         <activity
             android:name="com.parse.starter.MainActivity"
-            android:label="@string/app_name" >
+            android:label="Instagram Clone" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

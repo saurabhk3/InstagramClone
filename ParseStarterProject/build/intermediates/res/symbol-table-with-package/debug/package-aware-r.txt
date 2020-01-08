@@ -1025,6 +1025,7 @@ id list_item
 id loading_indicator
 id logo
 id logo_only
+id logout
 id main_container
 id match_global_nicknames
 id match_parent
