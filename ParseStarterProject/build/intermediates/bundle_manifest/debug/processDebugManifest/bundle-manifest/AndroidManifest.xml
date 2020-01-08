@@ -35,6 +35,7 @@
         android:label="InstagramClone"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.parse.starter.FeedActivity" />
         <activity android:name="com.parse.starter.UserActivity" />
         <activity
             android:name="com.parse.starter.MainActivity"

@@ -1018,6 +1018,7 @@ id left
 id light
 id line1
 id line3
+id linearLayout
 id listMode
 id listView
 id list_item
@@ -1169,6 +1170,7 @@ layout abc_screen_toolbar
 layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
+layout activity_feed
 layout activity_main
 layout activity_user
 layout cast_expanded_controller_activity
