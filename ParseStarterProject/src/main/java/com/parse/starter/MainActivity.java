@@ -127,6 +127,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     layout.setOnClickListener(this);
 
     if(ParseUser.getCurrentUser()!=null){  // is user is logged in already, show the list
+      Log.i("USer Current",ParseUser.getCurrentUser().getUsername());
       showUser();
     }
   }

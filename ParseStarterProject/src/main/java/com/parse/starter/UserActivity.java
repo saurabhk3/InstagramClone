@@ -41,11 +41,10 @@ public class UserActivity extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.listView);
 
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_activated_1, userList);
-        ParseQuery<ParseUser> query = ParseQuery.getQuery("User");
-        Toast.makeText(UserActivity.this, "yya", Toast.LENGTH_SHORT).show();
+        ParseQuery<ParseUser> query = ParseUser.getQuery();
 
         query.whereNotEqualTo("username", ParseUser.getCurrentUser().getUsername());
-        query.addAscendingOrder(ParseUser.getCurrentUser().getUsername());
+        query.addAscendingOrder("username");
         query.findInBackground(new FindCallback<ParseUser>() {
             @Override
             public void done(List<ParseUser> list, ParseException e) {
@@ -54,9 +53,9 @@ public class UserActivity extends AppCompatActivity {
                         userList.add(user.getUsername());
                     }
                 }
+                listView.setAdapter(adapter);
             }
         });
-        listView.setAdapter(adapter);
     }
 
     public void getPhoto(){
@@ -83,6 +82,7 @@ public class UserActivity extends AppCompatActivity {
                     @Override
                     public void done(ParseException e) {
                         if(e==null){
+                            Log.i("YEssss","yayayyaya");
                             Toast.makeText(UserActivity.this, "Image Shared!", Toast.LENGTH_SHORT).show();
                         }else{
                             Toast.makeText(UserActivity.this, "Image Share Failed!", Toast.LENGTH_SHORT).show();
